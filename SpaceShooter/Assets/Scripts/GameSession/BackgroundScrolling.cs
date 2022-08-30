@@ -5,11 +5,10 @@ using UnityEngine;
 [RequireComponent(typeof(Renderer))]
 public class BackgroundScrolling : MonoBehaviour
 {
-    [SerializeField] private Vector2 defaultVelocity;
+    [SerializeField] private Vector2 defaultVelocity; 
+    [SerializeField] private Vector2 startingOffset; 
     private Vector2 velocity;
-    [SerializeField] private Vector2 startingOffset;
     private Renderer bgTexRenderer;
-    private bool canIncreaseVelocity = true;
     void Start()
     {
         bgTexRenderer = GetComponent<Renderer>();
@@ -22,16 +21,8 @@ public class BackgroundScrolling : MonoBehaviour
         bgTexRenderer.material.mainTextureOffset = textureOffset;
     }
 
-    public void IncreaseVelocity(Vector2 velocity)
-    {
-        if (!canIncreaseVelocity)
-            return;
-        this.velocity += velocity*0.1f;
-        canIncreaseVelocity = false;
-    }
     public void ResetToDefault()
     {
         velocity = defaultVelocity;
-        canIncreaseVelocity = true;
     }
 }
