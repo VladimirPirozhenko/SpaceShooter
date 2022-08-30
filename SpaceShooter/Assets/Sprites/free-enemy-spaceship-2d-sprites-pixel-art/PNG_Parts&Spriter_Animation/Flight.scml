@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11" pixel_mode="1">
+    <folder id="0">
+        <file id="0" name="Ship1_Explosion.gif" width="126" height="126" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="1" name="Ship1/Exhaust/Normal_flight/Exhaust1">
+        <file id="0" name="Ship1/Exhaust/Normal_flight/Exhaust1/exhaust1.png" width="32" height="32" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="Ship1/Exhaust/Normal_flight/Exhaust1/exhaust2.png" width="32" height="32" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="Ship1/Exhaust/Normal_flight/Exhaust1/exhaust3.png" width="32" height="32" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="Ship1/Exhaust/Normal_flight/Exhaust1/exhaust4.png" width="32" height="32" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="2" name="Ship1">
+        <file id="0" name="Ship1/Ship1.png" width="64" height="64" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="Ship1/Exhaust/Turbo_flight/Exhaust1/exhaust1.png" width="64" height="64" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="Ship1/Exhaust/Normal_flight/Exhaust3/exhaust1.png" width="32" height="32" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="Ship1/Exhaust/Normal_flight/Exhaust3/exhaust2.png" width="32" height="32" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="Ship1/Exhaust/Normal_flight/Exhaust3/exhaust3.png" width="32" height="32" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="Ship1/Exhaust/Normal_flight/Exhaust3/exhaust4.png" width="32" height="32" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="Ship1/Exhaust/Turbo_flight/Exhaust3/exhaust1.png" width="64" height="64" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="Ship1/Exhaust/Turbo_flight/Exhaust3/exhaust2.png" width="64" height="64" pivot_x="0" pivot_y="1"/>
+        <file id="8" name="Ship1/Exhaust/Turbo_flight/Exhaust3/exhaust3.png" width="64" height="64" pivot_x="0" pivot_y="1"/>
+        <file id="9" name="Ship1/Exhaust/Turbo_flight/Exhaust3/exhaust4.png" width="64" height="64" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="3" name="Ship2">
+        <file id="0" name="Ship2/Ship2.png" width="128" height="128" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="Ship2/Exhaust/Normal_flight/Exhaust3/exhaust1.png" width="32" height="32" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="Ship2/Exhaust/Normal_flight/Exhaust3/exhaust2.png" width="32" height="32" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="Ship2/Exhaust/Normal_flight/Exhaust3/exhaust3.png" width="32" height="32" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="Ship2/Exhaust/Normal_flight/Exhaust3/exhaust4.png" width="32" height="32" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="Ship2/Exhaust/Turbo_flight/Exhaust3/exhaust1.png" width="64" height="64" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="Ship2/Exhaust/Turbo_flight/Exhaust3/exhaust2.png" width="64" height="64" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="Ship2/Exhaust/Turbo_flight/Exhaust3/exhaust3.png" width="64" height="64" pivot_x="0" pivot_y="1"/>
+        <file id="8" name="Ship2/Exhaust/Turbo_flight/Exhaust3/exhaust4.png" width="64" height="64" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="4" name="Ship3">
+        <file id="0" name="Ship3/Ship3.png" width="128" height="128" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="Ship3/Exhaust/Normal_flight/Exhaust2/exhaust1.png" width="32" height="32" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="Ship3/Exhaust/Normal_flight/Exhaust2/exhaust2.png" width="32" height="32" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="Ship3/Exhaust/Normal_flight/Exhaust2/exhaust3.png" width="32" height="32" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="Ship3/Exhaust/Normal_flight/Exhaust2/exhaust4.png" width="32" height="32" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="Ship3/Exhaust/Turbo_flight/Exhaust2/exhaust1.png" width="64" height="64" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="Ship3/Exhaust/Turbo_flight/Exhaust2/exhaust2.png" width="64" height="64" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="Ship3/Exhaust/Turbo_flight/Exhaust2/exhaust3.png" width="64" height="64" pivot_x="0" pivot_y="1"/>
+        <file id="8" name="Ship3/Exhaust/Turbo_flight/Exhaust2/exhaust4.png" width="64" height="64" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="5" name="Ship4">
+        <file id="0" name="Ship4/Ship4.png" width="128" height="128" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="Ship4/Exhaust/Normal_flight/Exhaust2/exhaust1.png" width="32" height="32" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="Ship4/Exhaust/Normal_flight/Exhaust2/exhaust2.png" width="32" height="32" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="Ship4/Exhaust/Normal_flight/Exhaust2/exhaust3.png" width="32" height="32" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="Ship4/Exhaust/Normal_flight/Exhaust2/exhaust4.png" width="32" height="32" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="Ship4/Exhaust/Turbo_flight/Exhaust2/exhaust1.png" width="64" height="64" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="Ship4/Exhaust/Turbo_flight/Exhaust2/exhaust2.png" width="64" height="64" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="Ship4/Exhaust/Turbo_flight/Exhaust2/exhaust3.png" width="64" height="64" pivot_x="0" pivot_y="1"/>
+        <file id="8" name="Ship4/Exhaust/Turbo_flight/Exhaust2/exhaust4.png" width="64" height="64" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="6" name="Ship5">
+        <file id="0" name="Ship5/Ship5.png" width="128" height="128" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="Ship5/Exhaust/Normal_flight/Exhaust3/exhaust1.png" width="32" height="32" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="Ship5/Exhaust/Normal_flight/Exhaust1/exhaust1.png" width="32" height="32" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="Ship5/Exhaust/Normal_flight/Exhaust2/exhaust1.png" width="32" height="32" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="Ship5/Exhaust/Normal_flight/Exhaust1/exhaust2.png" width="32" height="32" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="Ship5/Exhaust/Normal_flight/Exhaust1/exhaust04.png" width="32" height="32" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="Ship5/Exhaust/Normal_flight/Exhaust1/exhaust3.png" width="32" height="32" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="Ship5/Exhaust/Turbo_flight/Exhaust1/exhaust1.png" width="64" height="64" pivot_x="0" pivot_y="1"/>
+        <file id="8" name="Ship5/Exhaust/Turbo_flight/Exhaust1/exhaust2.png" width="64" height="64" pivot_x="0" pivot_y="1"/>
+        <file id="9" name="Ship5/Exhaust/Turbo_flight/Exhaust1/exhaust3.png" width="64" height="64" pivot_x="0" pivot_y="1"/>
+        <file id="10" name="Ship5/Exhaust/Turbo_flight/Exhaust1/exhaust4.png" width="64" height="64" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="7" name="Ship6">
+        <file id="0" name="Ship6/Ship6.png" width="128" height="128" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="Ship6/Exhaust/Normal_flight/Exhaust1/exhaust1.png" width="32" height="32" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="Ship6/Exhaust/Normal_flight/Exhaust1/exhaust2.png" width="32" height="32" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="Ship6/Exhaust/Normal_flight/Exhaust1/exhaust3.png" width="32" height="32" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="Ship6/Exhaust/Normal_flight/Exhaust1/exhaust4.png" width="32" height="32" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="Ship6/Exhaust/Turbo_flight/Exhaust1/exhaust1.png" width="64" height="64" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="Ship6/Exhaust/Turbo_flight/Exhaust1/exhaust2.png" width="64" height="64" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="Ship6/Exhaust/Turbo_flight/Exhaust1/exhaust3.png" width="64" height="64" pivot_x="0" pivot_y="1"/>
+        <file id="8" name="Ship6/Exhaust/Turbo_flight/Exhaust1/exhaust4.png" width="64" height="64" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="entity_000">
+        <animation id="0" name="Ship6_normal_flight" length="400" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="100">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                </key>
+                <key id="2" time="201">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="2" z_index="1"/>
+                </key>
+                <key id="3" time="301">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="3" z_index="1"/>
+                </key>
+                <key id="4" time="400">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="4" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="exhaust1_013">
+                <key id="0" spin="0">
+                    <object folder="7" file="1" x="-26" y="29" angle="0"/>
+                </key>
+                <key id="1" time="100" spin="0">
+                    <object folder="7" file="2" x="-26" y="29" angle="0"/>
+                </key>
+                <key id="2" time="201" spin="0">
+                    <object folder="7" file="3" x="-26" y="29" angle="0"/>
+                </key>
+                <key id="3" time="301" spin="0">
+                    <object folder="7" file="4" x="-26" y="29" angle="0"/>
+                </key>
+                <key id="4" time="400" spin="0">
+                    <object folder="7" file="1" x="-26" y="29" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="exhaust1_014">
+                <key id="0" spin="0">
+                    <object folder="7" file="1" x="-26" y="6" angle="0"/>
+                </key>
+                <key id="1" time="100" spin="0">
+                    <object folder="7" file="2" x="-26" y="6" angle="0"/>
+                </key>
+                <key id="2" time="201" spin="0">
+                    <object folder="7" file="3" x="-26" y="6" angle="0"/>
+                </key>
+                <key id="3" time="301" spin="0">
+                    <object folder="7" file="4" x="-26" y="6" angle="0"/>
+                </key>
+                <key id="4" time="400" spin="0">
+                    <object folder="7" file="1" x="-26" y="6" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="Ship6_turbo_flight" length="400" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="100">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                </key>
+                <key id="2" time="200">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="2" z_index="1"/>
+                </key>
+                <key id="3" time="298">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="3" z_index="1"/>
+                </key>
+                <key id="4" time="400">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="4" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="exhaust1_015">
+                <key id="0" spin="0">
+                    <object folder="7" file="5" x="-50" y="44" angle="0"/>
+                </key>
+                <key id="1" time="100" spin="0">
+                    <object folder="7" file="6" x="-50" y="44" angle="0"/>
+                </key>
+                <key id="2" time="200" spin="0">
+                    <object folder="7" file="7" x="-50" y="44" angle="0"/>
+                </key>
+                <key id="3" time="298" spin="0">
+                    <object folder="7" file="8" x="-50" y="44" angle="0"/>
+                </key>
+                <key id="4" time="400" spin="0">
+                    <object folder="7" file="7" x="-50" y="44" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="exhaust1_016">
+                <key id="0" spin="0">
+                    <object folder="7" file="5" x="-50" y="20" angle="0"/>
+                </key>
+                <key id="1" time="100" spin="0">
+                    <object folder="7" file="6" x="-50" y="20" angle="0"/>
+                </key>
+                <key id="2" time="200" spin="0">
+                    <object folder="7" file="7" x="-50" y="20" angle="0"/>
+                </key>
+                <key id="3" time="298" spin="0">
+                    <object folder="7" file="8" x="-50" y="20" angle="0"/>
+                </key>
+                <key id="4" time="400" spin="0">
+                    <object folder="7" file="7" x="-50" y="20" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="2" name="Ship5_normal_flight" length="400" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="101">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="200">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="299">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+                <key id="4" time="400">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="exhaust1_011">
+                <key id="0" spin="0">
+                    <object folder="6" file="2" x="-29" y="17" angle="0"/>
+                </key>
+                <key id="1" time="101" spin="0">
+                    <object folder="6" file="4" x="-29" y="17" angle="0"/>
+                </key>
+                <key id="2" time="200" spin="0">
+                    <object folder="6" file="6" x="-29" y="17" angle="0"/>
+                </key>
+                <key id="3" time="299" spin="0">
+                    <object folder="6" file="5" x="-29" y="17" angle="0"/>
+                </key>
+                <key id="4" time="400" spin="0">
+                    <object folder="6" file="2" x="-29" y="17" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="3" name="Ship5_turbo_flight" length="400" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="100">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="199">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="303">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+                <key id="4" time="400">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="exhaust1_012">
+                <key id="0" spin="0">
+                    <object folder="6" file="7" x="-53" y="33" angle="0"/>
+                </key>
+                <key id="1" time="100" spin="0">
+                    <object folder="6" file="8" x="-53" y="33" angle="0"/>
+                </key>
+                <key id="2" time="199" spin="0">
+                    <object folder="6" file="9" x="-53" y="33" angle="0"/>
+                </key>
+                <key id="3" time="303" spin="0">
+                    <object folder="6" file="10" x="-53" y="33" angle="0"/>
+                </key>
+                <key id="4" time="400" spin="0">
+                    <object folder="6" file="7" x="-53" y="33" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="4" name="Ship4_turbo_flight" length="400" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="101">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                </key>
+                <key id="2" time="202">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="2" z_index="1"/>
+                </key>
+                <key id="3" time="297">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="3" z_index="1"/>
+                </key>
+                <key id="4" time="400">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="4" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="exhaust1_009">
+                <key id="0" spin="0">
+                    <object folder="5" file="5" x="-51" y="38" angle="0"/>
+                </key>
+                <key id="1" time="101" spin="0">
+                    <object folder="5" file="6" x="-51" y="38" angle="0"/>
+                </key>
+                <key id="2" time="202" spin="0">
+                    <object folder="5" file="7" x="-51" y="38" angle="0"/>
+                </key>
+                <key id="3" time="297" spin="0">
+                    <object folder="5" file="8" x="-51" y="38" angle="0"/>
+                </key>
+                <key id="4" time="400" spin="0">
+                    <object folder="5" file="5" x="-51" y="38" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="exhaust1_010">
+                <key id="0" spin="0">
+                    <object folder="5" file="5" x="-51" y="21" angle="0"/>
+                </key>
+                <key id="1" time="101" spin="0">
+                    <object folder="5" file="6" x="-51" y="21" angle="0"/>
+                </key>
+                <key id="2" time="202" spin="0">
+                    <object folder="5" file="7" x="-51" y="21" angle="0"/>
+                </key>
+                <key id="3" time="297" spin="0">
+                    <object folder="5" file="8" x="-51" y="21" angle="0"/>
+                </key>
+                <key id="4" time="400" spin="0">
+                    <object folder="5" file="5" x="-51" y="21" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="5" name="Ship4_normal_fligjt" length="400" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="102">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                </key>
+                <key id="2" time="200">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="2" z_index="1"/>
+                </key>
+                <key id="3" time="299">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="3" z_index="1"/>
+                </key>
+                <key id="4" time="400">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="4" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="exhaust1_007">
+                <key id="0" spin="0">
+                    <object folder="5" file="1" x="-27" y="21" angle="0"/>
+                </key>
+                <key id="1" time="102" spin="0">
+                    <object folder="5" file="2" x="-27" y="21" angle="0"/>
+                </key>
+                <key id="2" time="200" spin="0">
+                    <object folder="5" file="3" x="-27" y="21" angle="0"/>
+                </key>
+                <key id="3" time="299" spin="0">
+                    <object folder="5" file="4" x="-27" y="21" angle="0"/>
+                </key>
+                <key id="4" time="400" spin="0">
+                    <object folder="5" file="1" x="-27" y="21" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="exhaust1_008">
+                <key id="0" spin="0">
+                    <object folder="5" file="1" x="-27" y="5" angle="0"/>
+                </key>
+                <key id="1" time="102" spin="0">
+                    <object folder="5" file="2" x="-27" y="5" angle="0"/>
+                </key>
+                <key id="2" time="200" spin="0">
+                    <object folder="5" file="3" x="-27" y="5" angle="0"/>
+                </key>
+                <key id="3" time="299" spin="0">
+                    <object folder="5" file="4" x="-27" y="5" angle="0"/>
+                </key>
+                <key id="4" time="400" spin="0">
+                    <object folder="5" file="1" x="-27" y="5" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="6" name="Ship3_normal_flight" length="400" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="100">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="201">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="298">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+                <key id="4" time="400">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="exhaust1_005">
+                <key id="0" spin="0">
+                    <object folder="4" file="1" x="-27" y="17" angle="0"/>
+                </key>
+                <key id="1" time="100" spin="0">
+                    <object folder="4" file="2" x="-27" y="17" angle="0"/>
+                </key>
+                <key id="2" time="201" spin="0">
+                    <object folder="4" file="3" x="-27" y="17" angle="0"/>
+                </key>
+                <key id="3" time="298" spin="0">
+                    <object folder="4" file="4" x="-27" y="17" angle="0"/>
+                </key>
+                <key id="4" time="400" spin="0">
+                    <object folder="4" file="1" x="-27" y="17" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="7" name="Ship3_turbo_flight" length="400" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="99">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="201">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="300">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+                <key id="4" time="400">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="exhaust1_006">
+                <key id="0" spin="0">
+                    <object folder="4" file="5" x="-51" y="33" angle="0"/>
+                </key>
+                <key id="1" time="99" spin="0">
+                    <object folder="4" file="6" x="-51" y="33" angle="0"/>
+                </key>
+                <key id="2" time="201" spin="0">
+                    <object folder="4" file="7" x="-51" y="33" angle="0"/>
+                </key>
+                <key id="3" time="300" spin="0">
+                    <object folder="4" file="8" x="-51" y="33" angle="0"/>
+                </key>
+                <key id="4" time="400" spin="0">
+                    <object folder="4" file="5" x="-51" y="33" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="8" name="Ship2_normal_flight" length="400" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="99">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                </key>
+                <key id="2" time="200">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="2" z_index="1"/>
+                </key>
+                <key id="3" time="300">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="3" z_index="1"/>
+                </key>
+                <key id="4" time="400">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="4" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="exhaust1_001">
+                <key id="0" spin="0">
+                    <object folder="3" file="1" x="-24" y="23" angle="0"/>
+                </key>
+                <key id="1" time="99" spin="0">
+                    <object folder="3" file="2" x="-24" y="23" angle="0"/>
+                </key>
+                <key id="2" time="200" spin="0">
+                    <object folder="3" file="3" x="-24" y="23" angle="0"/>
+                </key>
+                <key id="3" time="300" spin="0">
+                    <object folder="3" file="4" x="-24" y="23" angle="0"/>
+                </key>
+                <key id="4" time="400" spin="0">
+                    <object folder="3" file="1" x="-24" y="23" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="exhaust1_002">
+                <key id="0" spin="0">
+                    <object folder="3" file="1" x="-24" y="9" angle="0"/>
+                </key>
+                <key id="1" time="99" spin="0">
+                    <object folder="3" file="2" x="-24" y="9" angle="0"/>
+                </key>
+                <key id="2" time="200" spin="0">
+                    <object folder="3" file="3" x="-24" y="9" angle="0"/>
+                </key>
+                <key id="3" time="300" spin="0">
+                    <object folder="3" file="4" x="-24" y="9" angle="0"/>
+                </key>
+                <key id="4" time="400" spin="0">
+                    <object folder="3" file="1" x="-24" y="9" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="9" name="Ship2_turbo_flight" length="400" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="101">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                </key>
+                <key id="2" time="198">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="2" z_index="1"/>
+                </key>
+                <key id="3" time="300">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="3" z_index="1"/>
+                </key>
+                <key id="4" time="400">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="4" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="exhaust1_003">
+                <key id="0" spin="0">
+                    <object folder="3" file="5" x="-49" y="40" angle="0"/>
+                </key>
+                <key id="1" time="101" spin="0">
+                    <object folder="3" file="6" x="-49" y="40" angle="0"/>
+                </key>
+                <key id="2" time="198" spin="0">
+                    <object folder="3" file="7" x="-49" y="40" angle="0"/>
+                </key>
+                <key id="3" time="300" spin="0">
+                    <object folder="3" file="8" x="-49" y="40" angle="0"/>
+                </key>
+                <key id="4" time="400" spin="0">
+                    <object folder="3" file="5" x="-49" y="40" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="exhaust1_004">
+                <key id="0" spin="0">
+                    <object folder="3" file="5" x="-49" y="26" angle="0"/>
+                </key>
+                <key id="1" time="101" spin="0">
+                    <object folder="3" file="6" x="-49" y="26" angle="0"/>
+                </key>
+                <key id="2" time="198" spin="0">
+                    <object folder="3" file="7" x="-49" y="26" angle="0"/>
+                </key>
+                <key id="3" time="300" spin="0">
+                    <object folder="3" file="8" x="-49" y="26" angle="0"/>
+                </key>
+                <key id="4" time="400" spin="0">
+                    <object folder="3" file="5" x="-49" y="26" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="10" name="Ship1_normal_flight" length="400" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="100">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="199">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="301">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+                <key id="4" time="400">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="exhaust1">
+                <key id="0" spin="0">
+                    <object folder="2" file="2" x="-22" y="16" angle="0"/>
+                </key>
+                <key id="1" time="100" spin="0">
+                    <object folder="2" file="3" x="-22" y="16" angle="0"/>
+                </key>
+                <key id="2" time="199" spin="0">
+                    <object folder="2" file="4" x="-22" y="16" angle="0"/>
+                </key>
+                <key id="3" time="301" spin="0">
+                    <object folder="2" file="5" x="-22" y="16" angle="0"/>
+                </key>
+                <key id="4" time="400" spin="0">
+                    <object folder="2" file="2" x="-22" y="16" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="11" name="Ship1_turbol_flight" length="400" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="99">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="200">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="300">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+                <key id="4" time="400">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="exhaust1_000">
+                <key id="0" spin="0">
+                    <object folder="2" file="6" x="-48" y="33" angle="0"/>
+                </key>
+                <key id="1" time="99" spin="0">
+                    <object folder="2" file="7" x="-48" y="33" angle="0"/>
+                </key>
+                <key id="2" time="200" spin="0">
+                    <object folder="2" file="8" x="-48" y="33" angle="0"/>
+                </key>
+                <key id="3" time="300" spin="0">
+                    <object folder="2" file="9" x="-48" y="33" angle="0"/>
+                </key>
+                <key id="4" time="400" spin="0">
+                    <object folder="2" file="6" x="-48" y="33" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>
