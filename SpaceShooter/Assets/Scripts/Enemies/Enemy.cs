@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public class Enemy : MonoBehaviour,IDamageDealer
 {
     [SerializeField] private float speed;
     private Rigidbody2D rb;
@@ -15,8 +15,7 @@ public class Enemy : MonoBehaviour
     
     private void OnEnable()
     {
-        rb.velocity = new Vector2(-speed,0);
-      
+        rb.velocity = new Vector2(-speed,0);    
     }
 
     private void Update()
@@ -25,5 +24,9 @@ public class Enemy : MonoBehaviour
             Destroy(gameObject);    
     }
 
-
+    public void DealDamage(IDamageable damageable)
+    {
+        int damageOnCollision = 1;
+        damageable.TakeDamage(damageOnCollision);
+    }
 }

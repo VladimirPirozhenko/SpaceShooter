@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8368079589138546630}
   - component: {fileID: 8368079589138546631}
   - component: {fileID: 8368079589138546628}
+  - component: {fileID: 819380759247036671}
   m_Layer: 0
   m_Name: EnemyLightShip
   m_TagString: Untagged
@@ -118,3 +119,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!70 &819380759247036671
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8368079589138546624}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.88, y: 0.3}
+  m_Direction: 1

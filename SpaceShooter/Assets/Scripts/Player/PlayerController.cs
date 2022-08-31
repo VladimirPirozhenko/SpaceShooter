@@ -29,6 +29,14 @@ public class PlayerController : MonoBehaviour
         KeepInCameraView();
     }
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.TryGetComponent(out IDamageDealer damageDealer))
+        {
+            damageDealer.DealDamage(health);
+        }
+    }
+
     //INSERT HERE ALL TYPES OF MOVEMENT
     public void Move()
     {

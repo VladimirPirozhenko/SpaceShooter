@@ -5,6 +5,6 @@ using System;
 
 public interface IDamageable 
 {
-    public void TakeDamage(int amount);
+    public void TakeDamage(float amount);
     public event Action OnOutOfHealth;
 }
