@@ -23,10 +23,10 @@ public class HealthBarView : MonoBehaviour
         public void ChangeHealthValue()
         { 
             float healthPercentage = health.CurrentHealth/health.MaxHealth;
-            if (healthPercentage != healthBar.fillAmount)
+            if (healthPercentage != cachedFillAmount)
             {
                 accumulation += healthChangingSpeed * Time.deltaTime;
-                healthBar.fillAmount = Mathf.Lerp(cachedFillAmount,healthPercentage,accumulation);
+                healthBar.fillAmount = Mathf.Lerp(healthPercentage,healthPercentage,accumulation);
                 ChangeColor();
                 Debug.Log("FILLAMOUNT = " + healthBar.fillAmount);
                 Debug.Log("healthPercentage = " + healthPercentage);

@@ -2,21 +2,32 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(Health))]
 public class Enemy : MonoBehaviour,IDamageDealer
 {
     [SerializeField] private float speed;
     private Rigidbody2D rb;
     private Vector2 screenBounds;
+    private Health health;
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        health = GetComponent<Health>();
         screenBounds = Camera.main.GetScreenBounds2D();
     }
     
     private void OnEnable()
     {
         rb.velocity = new Vector2(-speed,0);    
+        health.OnOutOfHealth += Die;
     }
+
+    private void OnDisable()
+    {
+        health.OnOutOfHealth -= Die;
+    }
+    
 
     private void Update()
     {
@@ -24,9 +35,22 @@ public class Enemy : MonoBehaviour,IDamageDealer
             Destroy(gameObject);    
     }
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.TryGetComponent(out IDamageDealer damageDealer))
+        {
+            damageDealer.DealDamage(health);
+        }
+    }
+
     public void DealDamage(IDamageable damageable)
     {
         int damageOnCollision = 1;
         damageable.TakeDamage(damageOnCollision);
+    }
+
+    public void Die()
+    {
+        gameObject.SetActive(false);
     }
 }

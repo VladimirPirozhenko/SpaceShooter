@@ -13,6 +13,7 @@ public class Health : MonoBehaviour,IDamageable,IHealable
 
     private void Start()
     {
+        CurrentHealth = MaxHealth;
         OnHealthChanged?.Invoke(CurrentHealth,MaxHealth);
     }
 

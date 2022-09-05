@@ -8,10 +8,12 @@ public class PlayerController : MonoBehaviour
 { 
     [SerializeField] private float speed;
     [SerializeField] private float smoothTime;
+    [SerializeField] private Weapon weapon;
     
     private IPlayerInput playerInput; 
     private Rigidbody2D rb;
     private Health health;
+
     private Transform playerTransform;
     private Camera mainCamera;
 
@@ -27,6 +29,7 @@ public class PlayerController : MonoBehaviour
     {
         Move();
         KeepInCameraView();
+        Shoot();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -44,6 +47,14 @@ public class PlayerController : MonoBehaviour
         Vector3 targetVelocity = movementDirection * speed;
         Vector3 velocity = Vector3.zero;
         rb.velocity = Vector3.SmoothDamp(rb.velocity,targetVelocity,ref velocity,smoothTime);
+    }
+
+    public void Shoot()
+    {
+        bool canShoot = playerInput.ReadShootInput();
+        int playerLayer = LayerMask.NameToLayer("Player");
+        
+        if (canShoot) weapon.Shoot();
     }
 
     public void KeepInCameraView()
