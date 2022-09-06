@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1395316082977520596}
   - component: {fileID: 5801336291784587192}
   - component: {fileID: -7567298518927887229}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: DefaultProjectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -118,7 +118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 657d2b5e405da6f448596d1ccc4f9288, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 10
   damage: 1
 --- !u!70 &-7567298518927887229
 CapsuleCollider2D:

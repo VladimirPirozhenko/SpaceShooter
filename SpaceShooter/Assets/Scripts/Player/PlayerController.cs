@@ -53,7 +53,7 @@ public class PlayerController : MonoBehaviour
     {
         bool canShoot = playerInput.ReadShootInput();
         int playerLayer = LayerMask.NameToLayer("Player");
-        
+
         if (canShoot) weapon.Shoot();
     }
 

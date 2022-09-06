@@ -12,14 +12,14 @@ public class Enemy : MonoBehaviour,IDamageDealer
     private Health health;
     private void Awake()
     {
-        rb = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>(); 
+        rb.velocity = new Vector2(-speed,0);    
         health = GetComponent<Health>();
         screenBounds = Camera.main.GetScreenBounds2D();
     }
     
     private void OnEnable()
-    {
-        rb.velocity = new Vector2(-speed,0);    
+    {   
         health.OnOutOfHealth += Die;
     }
 
@@ -28,11 +28,15 @@ public class Enemy : MonoBehaviour,IDamageDealer
         health.OnOutOfHealth -= Die;
     }
     
-
     private void Update()
     {
+         HandleOutOfBounds();
+    }
+
+    private void HandleOutOfBounds()
+    {
         if (transform.position.x < -screenBounds.x)
-            Destroy(gameObject);    
+            Destroy(gameObject);   
     }
 
     private void OnTriggerEnter2D(Collider2D other)

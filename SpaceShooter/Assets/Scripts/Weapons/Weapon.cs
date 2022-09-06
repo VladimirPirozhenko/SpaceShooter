@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 
@@ -17,20 +19,15 @@ public class Weapon : MonoBehaviour
     {
          timeSinceLastShot = fireRate;
     }
-    private void Update()
-    {
-        CheckCooldown();
-    }
 
-    private void CheckCooldown()
+    private IEnumerator CooldownRoutine()
     {
-        if (timeSinceLastShot < fireRate)
+        isOnCooldown = true;
+        while (isOnCooldown)
         {
-            timeSinceLastShot += Time.deltaTime;
-            isOnCooldown = true;
-            return;
+            yield return new WaitForSeconds(fireRate);
+            isOnCooldown = false;  
         }
-        isOnCooldown = false;
     }
 
     public void Shoot()
@@ -41,6 +38,9 @@ public class Weapon : MonoBehaviour
         Projectile projectile = GameObject.Instantiate(projectilePrefab,this.transform,true);
         projectile.IgnoreCollision(gameObject.layer);
         projectile.transform.position = projectileSpawnLocation.transform.position;
+        projectile.MoveInDirection(transform.right);
         timeSinceLastShot = 0;
+
+        StartCoroutine(CooldownRoutine());
     }
 }
