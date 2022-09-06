@@ -28,9 +28,10 @@ public class Enemy : MonoBehaviour,IDamageDealer
         health.OnOutOfHealth -= Die;
     }
     
-    private void Update()
+    protected virtual void Update()
     {
          HandleOutOfBounds();
+         Debug.Log("ENEMY VELOCITY: " + rb.velocity.ToString());
     }
 
     private void HandleOutOfBounds()

@@ -24,15 +24,20 @@ public class Projectile : MonoBehaviour, IDamageDealer
         Destroy(this.gameObject,3);
         transform.SetParent(null);
     }
+
+    private void Update()
+    {
+        Debug.Log("ProjectileVelocity:" + rb.velocity.ToString());
+    }
     public void MoveInDirection(Vector2 direction)
     {
-        rb.velocity = direction * speed;
+        rb.velocity = direction.normalized * speed;
+    
     }
 
-    public void IgnoreCollision(int collisionLayer)
+    public void IgnoreCollision(Collider2D colliderToIgnore)
     {
-        collisionToIgore = collisionLayer;
-        Physics2D.IgnoreLayerCollision(collisionLayer,gameObject.layer,true);
+        Physics2D.IgnoreCollision(colliderToIgnore, GetComponent<Collider2D>(),true);
     }
 
     public void DealDamage(IDamageable damageable)

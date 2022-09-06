@@ -35,9 +35,12 @@ public class Weapon : MonoBehaviour
         if (isOnCooldown)
             return;
 
-        Projectile projectile = GameObject.Instantiate(projectilePrefab,this.transform,true);
-        projectile.IgnoreCollision(gameObject.layer);
+        Projectile projectile = GameObject.Instantiate(projectilePrefab,this.transform,false);
+        //Physics2D.IgnoreCollision(projectile.GetComponent<Collider2D>(), GetComponent<Collider2D>());
+        projectile.IgnoreCollision(GetComponent<Collider2D>());  
         projectile.transform.position = projectileSpawnLocation.transform.position;
+        projectile.transform.SetParent(null);
+        projectile.gameObject.SetActive(true);  
         projectile.MoveInDirection(transform.right);
         timeSinceLastShot = 0;
 

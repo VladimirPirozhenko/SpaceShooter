@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
 { 
     [SerializeField] private float speed;
     [SerializeField] private float smoothTime;
-    [SerializeField] private Weapon weapon;
+    private Weapon weapon;
     
     private IPlayerInput playerInput; 
     private Rigidbody2D rb;
@@ -22,6 +22,7 @@ public class PlayerController : MonoBehaviour
         playerTransform = GetComponent<Transform>();
         rb = GetComponent<Rigidbody2D>();
         health = GetComponent<Health>();
+        weapon = GetComponent<Weapon>();
         mainCamera = Camera.main;
         playerInput = new KeyPlayerInput();
     }
@@ -46,14 +47,15 @@ public class PlayerController : MonoBehaviour
         Vector2 movementDirection = playerInput.ReadMovement();
         Vector3 targetVelocity = movementDirection * speed;
         Vector3 velocity = Vector3.zero;
-        rb.velocity = Vector3.SmoothDamp(rb.velocity,targetVelocity,ref velocity,smoothTime);
+        transform.Translate(targetVelocity * Time.deltaTime);
+       // rb.velocity = Vector3.SmoothDamp(rb.velocity,targetVelocity,ref velocity,smoothTime);
     }
 
     public void Shoot()
     {
+        if (!weapon)
+            return;
         bool canShoot = playerInput.ReadShootInput();
-        int playerLayer = LayerMask.NameToLayer("Player");
-
         if (canShoot) weapon.Shoot();
     }
 
