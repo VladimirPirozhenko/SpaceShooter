@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Animations;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
@@ -7,15 +8,22 @@ using UnityEngine;
 public class Enemy : MonoBehaviour,IDamageDealer
 {
     [SerializeField] private float speed;
+    [SerializeField] private Explosion explosionOnDeath;
+
     private Rigidbody2D rb;
     private Vector2 screenBounds;
     private Health health;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>(); 
         rb.velocity = new Vector2(-speed,0);    
         health = GetComponent<Health>();
         screenBounds = Camera.main.GetScreenBounds2D();
+        explosionOnDeath = Instantiate(explosionOnDeath);
+        explosionOnDeath.transform.SetParent(transform,true);
+        explosionOnDeath.gameObject.SetActive(true);
+        explosionOnDeath.gameObject.SetActive(false);
     }
     
     private void OnEnable()
@@ -56,6 +64,8 @@ public class Enemy : MonoBehaviour,IDamageDealer
 
     public void Die()
     {
-        gameObject.SetActive(false);
+        explosionOnDeath.gameObject.SetActive(true);
+        //explosionOnDeath.PlayExplosionAnimaton();   
+        gameObject.SetActive(false);     
     }
 }

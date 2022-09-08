@@ -28,8 +28,6 @@ public class HealthBarView : MonoBehaviour
                 accumulation += healthChangingSpeed * Time.deltaTime;
                 healthBar.fillAmount = Mathf.Lerp(healthPercentage,healthPercentage,accumulation);
                 ChangeColor();
-               // Debug.Log("FILLAMOUNT = " + healthBar.fillAmount);
-               // Debug.Log("healthPercentage = " + healthPercentage);
                 return;
             }
             accumulation = 0;

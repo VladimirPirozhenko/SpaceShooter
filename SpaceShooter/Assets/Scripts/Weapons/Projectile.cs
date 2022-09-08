@@ -15,10 +15,6 @@ public class Projectile : MonoBehaviour, IDamageDealer
         rb = GetComponent<Rigidbody2D>();
     }
     
-    private void OnEnable()
-    {
-       // rb.velocity = new Vector2(speed,0);    
-    }
     private void Start()
     {
         Destroy(this.gameObject,3);
@@ -29,6 +25,7 @@ public class Projectile : MonoBehaviour, IDamageDealer
     {
         Debug.Log("ProjectileVelocity:" + rb.velocity.ToString());
     }
+
     public void MoveInDirection(Vector2 direction)
     {
         rb.velocity = direction.normalized * speed;

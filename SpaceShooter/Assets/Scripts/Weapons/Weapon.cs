@@ -11,14 +11,9 @@ public class Weapon : MonoBehaviour
     [SerializeField] private int totalAmmo;
     [SerializeField] private float fireRate;
     [SerializeField] private LayerMask collisionToIgore;
-    private float timeSinceLastShot;
 
     private int currentAmmo;
     private bool isOnCooldown = false;
-    private void Start()
-    {
-         timeSinceLastShot = fireRate;
-    }
 
     private IEnumerator CooldownRoutine()
     {
@@ -36,13 +31,11 @@ public class Weapon : MonoBehaviour
             return;
 
         Projectile projectile = GameObject.Instantiate(projectilePrefab,this.transform,false);
-        //Physics2D.IgnoreCollision(projectile.GetComponent<Collider2D>(), GetComponent<Collider2D>());
         projectile.IgnoreCollision(GetComponent<Collider2D>());  
         projectile.transform.position = projectileSpawnLocation.transform.position;
         projectile.transform.SetParent(null);
         projectile.gameObject.SetActive(true);  
         projectile.MoveInDirection(transform.right);
-        timeSinceLastShot = 0;
 
         StartCoroutine(CooldownRoutine());
     }

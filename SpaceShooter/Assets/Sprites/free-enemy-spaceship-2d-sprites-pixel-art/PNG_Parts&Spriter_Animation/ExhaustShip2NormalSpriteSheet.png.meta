@@ -99,6 +99,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -724,6 +725,32 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      ExhaustShip2NormalSpriteSheet_3: -4356842770454968170
+      ExhaustShip2NormalSpriteSheet_15: -7855893248387281282
+      ExhaustShip2NormalSpriteSheet_24: 7765901819452240968
+      ExhaustShip2NormalSpriteSheet_0: 3991813938907812426
+      ExhaustShip2NormalSpriteSheet_10: -6547881604484771547
+      ExhaustShip2NormalSpriteSheet_20: -972646121278646468
+      ExhaustShip2NormalSpriteSheet_12: 4663672480928393805
+      ExhaustShip2NormalSpriteSheet_21: 7407055828915852674
+      ExhaustShip2NormalSpriteSheet_2: 3208761479259565761
+      ExhaustShip2NormalSpriteSheet_6: -2266433139503605794
+      ExhaustShip2NormalSpriteSheet_16: 7286526998893221705
+      ExhaustShip2NormalSpriteSheet_9: 4715994235541203343
+      ExhaustShip2NormalSpriteSheet_17: 1447160934081657134
+      ExhaustShip2NormalSpriteSheet_5: 248840941104761753
+      ExhaustShip2NormalSpriteSheet_11: -1260667866453097357
+      ExhaustShip2NormalSpriteSheet_22: -4767816406756184625
+      ExhaustShip2NormalSpriteSheet_19: -1821706426070612726
+      ExhaustShip2NormalSpriteSheet_18: -1434872930027259047
+      ExhaustShip2NormalSpriteSheet_23: 8663753979259168455
+      ExhaustShip2NormalSpriteSheet_14: 3497933142753484975
+      ExhaustShip2NormalSpriteSheet_13: 1074409728811153153
+      ExhaustShip2NormalSpriteSheet_8: -647067920073304957
+      ExhaustShip2NormalSpriteSheet_1: -8048945351188215517
+      ExhaustShip2NormalSpriteSheet_7: -2949592590174087136
+      ExhaustShip2NormalSpriteSheet_4: 4458448410842399491
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

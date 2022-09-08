@@ -2,6 +2,7 @@ using UnityEngine;
 public class EnemyShip : Enemy, IShooter
 {
     private Weapon weapon;
+    
     private void Start()
     {
         weapon = GetComponent<Weapon>();
