@@ -4,7 +4,7 @@ using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(Health))]
-public class PlayerController : MonoBehaviour
+public class PlayerController : MonoBehaviour,IShooter
 { 
     [SerializeField] private float speed;
     [SerializeField] private float smoothTime;

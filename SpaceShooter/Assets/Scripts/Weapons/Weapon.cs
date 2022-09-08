@@ -4,7 +4,7 @@ using UnityEngine;
 
 
 
-public class Weapon : MonoBehaviour
+public class Weapon : MonoBehaviour, IShooter
 {
     [SerializeField] private Projectile projectilePrefab;
     [SerializeField] private Transform projectileSpawnLocation;
