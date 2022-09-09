@@ -228,7 +228,6 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -1757,75 +1756,6 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Explosion1SpriteSheetClean_14: 6914551245780753713
-      Explosion1SpriteSheetClean_13: 7349915920052574439
-      Explosion1SpriteSheetClean_7: -6635139935576083236
-      Explosion1SpriteSheetClean_45: 25863337599512073
-      Explosion1SpriteSheetClean_11: 5655890146076529516
-      Explosion1SpriteSheetClean_17: -3904470161883136414
-      Explosion1SpriteSheetClean_46: -4557998068041490511
-      Explosion1SpriteSheetClean_18: 9023119087864596543
-      Explosion1SpriteSheetClean_51: 6995367900508827125
-      Explosion1SpriteSheetClean_25: 7844298594184054803
-      Explosion1SpriteSheetClean_5: -1059268701717066667
-      Explosion1SpriteSheetClean_22: -4338927828949525136
-      Explosion1SpriteSheetClean_58: -3265712549802346110
-      Explosion1SpriteSheetClean_0: 6271468817264695412
-      Explosion1SpriteSheetClean_40: -8263481499709602437
-      Explosion1SpriteSheetClean_12: 4484495501856747214
-      Explosion1SpriteSheetClean_44: 7895403598594124238
-      Explosion1SpriteSheetClean_43: 497666735032222466
-      Explosion1SpriteSheetClean_56: -7906820671988544484
-      Explosion1SpriteSheetClean_19: 113410143202363113
-      Explosion1SpriteSheetClean_36: 7662730937942981333
-      Explosion1SpriteSheetClean_26: 121035420255055495
-      Explosion1SpriteSheetClean_63: 2549326093502043713
-      Explosion1SpriteSheetClean_29: 1995483111571774345
-      Explosion1SpriteSheetClean_66: 6525195503260721670
-      Explosion1SpriteSheetClean_37: -8454927016176479864
-      Explosion1SpriteSheetClean_67: 8475136759919702694
-      Explosion1SpriteSheetClean_47: -6581442396840267147
-      Explosion1SpriteSheetClean_21: -3144087222982540332
-      Explosion1SpriteSheetClean_49: -8418821394316321198
-      Explosion1SpriteSheetClean_3: -4438726853685025238
-      Explosion1SpriteSheetClean_6: 7718066061610547268
-      Explosion1SpriteSheetClean_61: -42360238570443067
-      Explosion1SpriteSheetClean_62: -8378225648523230388
-      Explosion1SpriteSheetClean_33: -1246548804258138017
-      Explosion1SpriteSheetClean_38: 7810193686558128535
-      Explosion1SpriteSheetClean_15: 8904602593048950158
-      Explosion1SpriteSheetClean_42: 8964363143199291578
-      Explosion1SpriteSheetClean_16: -231465550931530533
-      Explosion1SpriteSheetClean_65: -210419007134643769
-      Explosion1SpriteSheetClean_20: 8326150809600482301
-      Explosion1SpriteSheetClean_1: 6780170835162473026
-      Explosion1SpriteSheetClean_30: 1372039541264400627
-      Explosion1SpriteSheetClean_60: 61836062593808290
-      Explosion1SpriteSheetClean_53: -5506897969158657064
-      Explosion1SpriteSheetClean_24: 7081683620783618169
-      Explosion1SpriteSheetClean_10: 4994922480647290343
-      Explosion1SpriteSheetClean_32: 3676740784606986253
-      Explosion1SpriteSheetClean_34: 5768306898504494732
-      Explosion1SpriteSheetClean_4: -8119339917601433418
-      Explosion1SpriteSheetClean_39: 2178218900977718807
-      Explosion1SpriteSheetClean_57: 2451203575603427327
-      Explosion1SpriteSheetClean_48: -5502564507421123156
-      Explosion1SpriteSheetClean_59: -6147749440752890827
-      Explosion1SpriteSheetClean_50: -919854621957692076
-      Explosion1SpriteSheetClean_28: -6024790508727015541
-      Explosion1SpriteSheetClean_54: 8538256958035057963
-      Explosion1SpriteSheetClean_9: 6420853793698559136
-      Explosion1SpriteSheetClean_2: -2155688388835191898
-      Explosion1SpriteSheetClean_23: -1317491915850643179
-      Explosion1SpriteSheetClean_41: -5106916332897067909
-      Explosion1SpriteSheetClean_27: -7041965669141674484
-      Explosion1SpriteSheetClean_55: -683917903555293505
-      Explosion1SpriteSheetClean_8: -3397626926875000547
-      Explosion1SpriteSheetClean_31: -2432794832242210015
-      Explosion1SpriteSheetClean_64: -5993680351661191997
-      Explosion1SpriteSheetClean_52: 2957113919468057382
-      Explosion1SpriteSheetClean_35: 753816607361825230
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -8,8 +8,8 @@ using UnityEngine;
 public class Enemy : MonoBehaviour,IDamageDealer
 {
     [SerializeField] private float speed;
-    [SerializeField] private Explosion explosionOnDeath;
 
+    private Explosion explosionOnDeath;
     private Rigidbody2D rb;
     private Vector2 screenBounds;
     private Health health;
@@ -20,10 +20,9 @@ public class Enemy : MonoBehaviour,IDamageDealer
         rb.velocity = new Vector2(-speed,0);    
         health = GetComponent<Health>();
         screenBounds = Camera.main.GetScreenBounds2D();
-        explosionOnDeath = Instantiate(explosionOnDeath);
-        explosionOnDeath.transform.SetParent(transform,true);
-        explosionOnDeath.gameObject.SetActive(true);
-        explosionOnDeath.gameObject.SetActive(false);
+        explosionOnDeath = gameObject.GetComponentInChildren<Explosion>();
+     //   explosionOnDeath = Instantiate(explosionOnDeath);
+        //explosionOnDeath.transform.SetParent(transform,true);
     }
     
     private void OnEnable()
@@ -65,7 +64,8 @@ public class Enemy : MonoBehaviour,IDamageDealer
     public void Die()
     {
         explosionOnDeath.gameObject.SetActive(true);
-        //explosionOnDeath.PlayExplosionAnimaton();   
+        explosionOnDeath.transform.SetParent(null);
+        explosionOnDeath.PlayExplosionAnimaton();   
         gameObject.SetActive(false);     
     }
 }

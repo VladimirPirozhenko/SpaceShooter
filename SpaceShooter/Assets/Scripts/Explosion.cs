@@ -7,12 +7,26 @@ public class Explosion : MonoBehaviour
     private Animator animator;
 
     private int explodeHash = Animator.StringToHash("Explosion1Anim");
+    bool isFinished = false;
     private void Start()
     {
-        animator = GetComponent<Animator>();    
+        animator = GetComponent<Animator>();
+        gameObject.SetActive(false);
+    }
+    private void Update()
+    {
+        AnimatorStateInfo animStateInfo = animator.GetCurrentAnimatorStateInfo(0);
+        float animationTime = animStateInfo.normalizedTime;
+        if (animationTime > 1.0f)
+        {
+            isFinished = true;
+        }
+        if (isFinished)
+            gameObject.SetActive(false);
     }
     public void PlayExplosionAnimaton()
     {
-        animator.Play("Explosion1Anim");
+        gameObject.SetActive(true);
+        animator.Play(explodeHash); 
     }
 }
